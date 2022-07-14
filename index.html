@@ -207,7 +207,7 @@
 			<tr>
 				<td width=260px>
 					<center>
-						<img class="round" style="width:500px" src="./resources/Fig1_Rebuttal.png"/>
+						<img class="round" style="width:500px" src="./resources/Fig1.png"/>
 					</center>
 				</td>
 			</tr>
@@ -231,7 +231,29 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				Estimating the pose and shape of hands and objects under interaction finds numerous applications including augmented and virtual reality. Existing approaches for hand and object reconstruction require explicitly defined physical constraints and known objects, which limits its application domains. Our algorithm is agnostic to object models, and it learns the physical rules governing hand-object interaction. This requires automatically inferring the shapes and physical interaction of hands and (potentially unknown) objects. We seek to approach this challenging problem by proposing a collaborative learning strategy where two-branches of deep networks are learning from each other. Specifically, we transfer hand mesh information to the object branch and vice versa for the hand branch. The resulting optimisation (training) problem can be unstable, and we address this via two strategies: (i) attention-guided graph convolution which helps identify and focus on mutual occlusion and (ii) unsupervised associative loss which facilitates the transfer of information between the branches. Experiments using four widely-used benchmarks show that our framework achieves beyond state-of-the-art accuracy in 3D pose estimation, as well as recovers dense 3D hand and object shapes. Each technical component above contributes meaningfully in the ablation study.
+				Being able to reason about the physical contacts between
+				hands and objects is crucial in understanding hand-object manipula-
+				tion. However, despite the efforts in accurate 3D annotations in hand
+				and object datasets, there still exist gaps in 3D hand and object re-
+				constructions. Recent works leverage contact maps to refine inaccurate
+				hand-object pose estimations and generate grasps given object models.
+				However, they require explicit 3D supervision which is seldom available
+				and therefore, are limited to constrained settings, e.g., where thermal
+				cameras observe residual heat left on manipulated objects. In this pa-
+				per, we propose a novel semi-supervised framework that allows us to
+				learn contact from monocular videos. Specifically, we leverage visual and
+				geometric consistency constraints in large-scale datasets for generating
+				pseudo-labels in semi-supervised learning and propose an efficient graph-
+				based network to infer contact. Our semi-supervised learning framework
+				achieves a favourable improvement over the existing supervised learning
+				methods trained on data with ‘limited’ annotations. Notably, our pro-
+				posed model is able to achieve superior results with less than half the
+				network parameters and memory access cost when compared with the
+				commonly-used PointNet-based approach. We show benefits from using
+				a contact map that rules hand-object interactions to produce more accu-
+				rate reconstructions. We further demonstrate that training with pseudo-
+				labels can extend contact map estimations to out-of-domain objects and
+				generalise better across multiple datasets.
 			</td>
 		</tr>
 	</table>
@@ -268,7 +290,7 @@
 		<tr>
 			<td align=center width=600px>
 				<center>
-					<td><img class="round" style="width:950px" src="./resources/overall_framework.png"/></td>
+					<td><img class="round" style="width:950px" src="./resources/Fig2.png"/></td>
 				</center>
 			</td>
 		</tr>
