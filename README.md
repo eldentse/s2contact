@@ -37,15 +37,19 @@ This document contains detailed instructions for installing the necessary depend
     ``` 
 
 ## Quick Start
+
+- Quick Demo
     ```bash
     python network/run_contactopt.py --split=demo --model=dgcnn
     python network/run_eval.py --split=demo --model=dgcnn
     python network/run_eval.py --split=demo --model=dgcnn --vis
-    ``` 
+    ```
+
+## TODO
+- [ ] To release pseudo labeled dataset.
 
 ## Acknowledgement
-This is a modified version of [ContactOpt](https://github.com/facebookresearch/ContactOpt) based on **Pytorch**,
-We would like to thank their authors for providing great frameworks and toolkits.
+This repo is built upon [ContactOpt](https://github.com/facebookresearch/ContactOpt). We would like to thank their authors for providing great frameworks and toolkits.
 
 ## Contact
 * Zhongqun Zhang (email:zxz064@student.bham.ac.uk)
