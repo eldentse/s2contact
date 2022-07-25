@@ -53,6 +53,7 @@ This repo is built upon [ContactOpt](https://github.com/facebookresearch/Contact
 
 ## Contact
 * Zhongqun Zhang (email:zxz064@student.bham.ac.uk)
+* Tze Ho Elden Tse (email:txt994@student.bham.ac.uk)
 
     Feel free to contact me if you have additional questions. 
 
