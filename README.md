@@ -54,8 +54,8 @@ This document contains detailed instructions for installing the necessary depend
 This repo is built upon [ContactOpt](https://github.com/facebookresearch/ContactOpt). We would like to thank their authors for providing great frameworks and toolkits.
 
 ## Contact
-* Zhongqun Zhang (email:zxz064@student.bham.ac.uk)
-* Tze Ho Elden Tse (email:txt994@student.bham.ac.uk)
+* Zhongqun Zhang (email: zxz064@student.bham.ac.uk)
+* Tze Ho Elden Tse (email: txt994@student.bham.ac.uk)
 
     Feel free to contact me if you have additional questions. 
 
