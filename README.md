@@ -4,7 +4,8 @@ This repo contains details for our paper: "S<sup>2</sup>Contact: Graph-based Net
 
 [![report](https://img.shields.io/badge/arxiv-report-red)]()
 
-[Project Page](https://eldentse.github.io/s2contact/)
+[[Project Page](https://eldentse.github.io/s2contact/)]
+
 ![Teaser](docs/GCN-Contact.png)
 
 
@@ -47,6 +48,7 @@ This document contains detailed instructions for installing the necessary depend
 
 ## TODO
 - [ ] To release pseudo labeled dataset.
+- [ ] Upload paper to arXiv.
 
 ## Acknowledgement
 This repo is built upon [ContactOpt](https://github.com/facebookresearch/ContactOpt). We would like to thank their authors for providing great frameworks and toolkits.
